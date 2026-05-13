@@ -1,4 +1,5 @@
-import streamlit as st
+
+st.set_page_config(page_title="Vantage AI", layout="wide", initial_sidebar_state="expanded")
 import google.generativeai as genai
 import streamlit.components.v1 as components
 from PIL import Image
